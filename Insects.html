@@ -22,6 +22,23 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="insects.html">Interesting insects</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link active" href="basic.html">Link to Basic page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="advanced.html">Link to Advanced page</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <h1>Insects by Pitchaiah Lella</h1>
   <div class="container">
     <div class="row">
@@ -126,6 +143,24 @@
       <li><a class="dropdown-item" href="advanced.html">Advanced page</a></li>
     </ul>
   </div>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp"
+        placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">Your email address won't ever be shared.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputInsect">Insect</label>
+      <input type="text" class="form-control" id="exampleInputInsect" aria-describedby="insectHelp"
+        placeholder="Enter your insect">
+    </div>
+    <div class="form-check">
+      <label class=" form-check-label">Sign up for newsletter? </label>
+      <input type="checkbox" class=" form-check-input">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 </body>
 
 </html>

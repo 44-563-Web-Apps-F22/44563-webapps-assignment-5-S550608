@@ -14,29 +14,28 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
     crossorigin="anonymous"></script>
-  <style>
-    img:hover {
-      box-shadow: 0px 0px 2px 1px yellow;
-    }
-  </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="insects.html">Interesting insects</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item ">
-          <a class="nav-link active" href="basic.html">Link to Basic page</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="advanced.html">Link to Advanced page</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div style="background-color:rgba(255, 243, 228, 0.938)" class="container-fluid">
+      <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" style="background-color:rgb(253, 228, 24)" class="collapse navbar-collapse"
+            id="navbar-toggler">
+            <a class="nav-link active" href="basic.html">BASIC</a>
+          </li>
+          <li class="nav-item" style="background-color:rgba(0, 217, 255, 0.651)" class="collapse navbar-collapse"
+            id="navbar-toggler">
+            <a class="nav-link" href="advanced.html">ADVANCED</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
   <h1>Insects by Pitchaiah Lella</h1>
@@ -121,90 +120,102 @@
       </tr>
     </tbody>
   </table>
-  <div class="btn-toolbar">
-    <div class="btn-group mr-2" aria-label="This is first button group">
-      <button type="button" class="btn btn-success">L</button>
-      <button type="button" class="btn btn-success">E</button>
-      <button type="button" class="btn btn-success">L</button>
-    </div>
-    <div class="btn-group mr-2" aria-label="This is second button group">
-      <button type="button" class="btn btn-warning">L</button>
-      <button type="button" class="btn btn-warning">A</button>
-    </div>
-    <div class="btn-group mr-2" aria-label="This is third button group">
-      <button type="button" class="btn btn-danger">P</button>
-    </div>
-  </div>
-  <div class="dropdown">
-    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">Drop
-      down</button>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="basic.html">Basic page</a></li>
-      <li><a class="dropdown-item" href="advanced.html">Advanced page</a></li>
-    </ul>
-  </div>
-  <form>
-    <div class="form-group">
-      <label for="exampleInputEmail">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp"
-        placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">Your email address won't ever be shared.</small>
-    </div>
-    <div class="form-group">
-      <label for="exampleInputInsect">Insect</label>
-      <input type="text" class="form-control" id="exampleInputInsect" aria-describedby="insectHelp"
-        placeholder="Enter your insect">
-    </div>
-    <div class="form-check">
-      <label class=" form-check-label">Sign up for newsletter? </label>
-      <input type="checkbox" class=" form-check-input">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-  <card>
-    <div class="card-group">
-      <div class="card" style="width: 15rem">
-        <img src="LeafInsect.jpg" height="250" width="250" class="card-img-top" alt="Leaf insect">
-        <div class="card-body">
-          <h5 class="card-title">Leaf insect</h5>
-          <p class="card-text">Leaf insect, (family Phylliidae), also called walking leaf, any of more than 50 species
-            of flat,
-            [1] Usually green insects (order Phasmida, or Phasmatodea) that are known for their striking leaflike
-            appearance.
-            [2] Leaf insects feed on plants and typically inhabit densely vegetated areas.
-            [3] Their natural range extends from islands in the Indian Ocean, across parts of mainland South Asia and
-            Southeast Asia, to Papua New Guinea and Australia in the western Pacific.</p>
-          <a href="https://www.britannica.com/animal/leaf-insect" class="btn btn-primary">Leaf insect</a>
+  <br>
+  <label>BUTTONS:</label>
+  <div>
+    <button type="button" class="btn btn-success">L</button>
+    <button type="button" class="btn btn-warning">E</button>
+    <button type="button" class="btn btn-danger">L</button>
+    <button type="button" class="btn btn-secondary">L</button>
+    <button type="button" class="btn btn-info">A</button>
+    <button type="button" class="btn btn-dark">P</button>
+  </div><br>
+  <label>BUTTON GROUPS:</label>
+  <div>
+    <div class="btn-toolbar">
+      <div class="btn-group mr-2" aria-label="This is first button group">
+        <button type="button" class="btn btn-success">L</button>
+        <button type="button" class="btn btn-success">E</button>
+        <button type="button" class="btn btn-success">L</button>
+      </div>
+      <div class="btn-group mr-2" aria-label="This is second button group">
+        <button type="button" class="btn btn-warning">L</button>
+        <button type="button" class="btn btn-warning">A</button>
+      </div>
+      <div class="btn-group mr-2" aria-label="This is third button group">
+        <button type="button" class="btn btn-danger">P</button>
+      </div>
+  </div> <br>
+    <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">Drop
+        down</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="basic.html">Basic page</a></li>
+        <li><a class="dropdown-item" href="advanced.html">Advanced page</a></li>
+      </ul>
+    </div><br>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp"
+          placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">Your email address won't ever be shared.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputInsect">Insect</label>
+        <input type="text" class="form-control" id="exampleInputInsect" aria-describedby="insectHelp"
+          placeholder="Enter your insect">
+      </div>
+      <div class="form-check">
+        <label class=" form-check-label">Sign up for newsletter? </label>
+        <input type="checkbox" class=" form-check-input">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form><br>
+    <card>
+      <div class="card-group">
+        <div class="card" style="width: 18rem">
+          <img src="LeafInsect.jpg" height="250" width="250" class="card-img-top" alt="Leaf insect">
+          <div class="card-body">
+            <h5 class="card-title">Leaf insect</h5>
+            <p class="card-text">Leaf insect, (family Phylliidae), also called walking leaf, any of more than 50 species
+              of flat,
+              [1] Usually green insects (order Phasmida, or Phasmatodea) that are known for their striking leaflike
+              appearance.
+              [2] Leaf insects feed on plants and typically inhabit densely vegetated areas.
+              [3] Their natural range extends from islands in the Indian Ocean, across parts of mainland South Asia and
+              Southeast Asia, to Papua New Guinea and Australia in the western Pacific.</p>
+            <a href="https://www.britannica.com/animal/leaf-insect" class="btn btn-primary">Leaf insect</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="Earwig.jpg" class="card-img-top" alt="Earwigs">
+          <div class="card-body">
+            <h5 class="card-title">Earwigs</h5>
+            <p class="card-text">Earwigs make up the insect order Dermaptera. With about 2,000 species in 12 families,
+              [1] they are one of the smaller insect orders. Earwigs have characteristic cerci, a pair of forcep-like
+              pincers on their abdomen,
+              [2] and membranous wings folded underneath short, rarely used forewings, hence the scientific order name,
+              "skin wings".
+              [3] Some groups are tiny parasites on mammals and lack the typical pincers. Earwigs are found on all
+              continents except Antarctica. </p>
+            <a href="https://en.wikipedia.org/wiki/Earwig" class="btn btn-primary">Earwigs</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="Lacewing.jpg" class="card-img-top" alt="Lacewings">
+          <div class="card-body">
+            <h5 class="card-title">Lacewings</h5>
+            <p class="card-text">Our Green Lacewings (Mallada signatus) are hardy,
+              [1] generalist predators that feed on many small insects including aphids, caterpillars, moth eggs, scale
+              insects, mealybugs, psyllids, and lace bugs.
+              [2] They are among the most common and widely distributed native lacewings in Australia.
+              [3] Adults are green, 15 mm long, and have large lacey wings</p>
+            <a href="https://bugsforbugs.com.au/product/lacewing/" class="btn btn-primary">Lacewings</a>
+          </div>
         </div>
       </div>
-      <div class="card" style="width: 15rem">
-        <img src="Earwig.jpg" class="card-img-top" alt="Earwigs">
-        <div class="card-body">
-          <h5 class="card-title">Earwigs</h5>
-          <p class="card-text">Earwigs make up the insect order Dermaptera. With about 2,000 species in 12 families,
-            [1] they are one of the smaller insect orders. Earwigs have characteristic cerci, a pair of forcep-like
-            pincers on their abdomen,
-            [2] and membranous wings folded underneath short, rarely used forewings, hence the scientific order name,
-            "skin wings".
-            [3] Some groups are tiny parasites on mammals and lack the typical pincers. Earwigs are found on all
-            continents except Antarctica. </p>
-          <a href="https://en.wikipedia.org/wiki/Earwig" class="btn btn-primary">Earwigs</a>
-        </div>
-      </div>
-      <div class="card" style="width: 15rem">
-        <img src="Lacewing.jpg" class="card-img-top" alt="Lacewings">
-        <div class="card-body">
-          <h5 class="card-title">Lacewings</h5>
-          <p class="card-text">Our Green Lacewings (Mallada signatus) are hardy,
-            [1] generalist predators that feed on many small insects including aphids, caterpillars, moth eggs, scale
-            insects, mealybugs, psyllids, and lace bugs.
-            [2] They are among the most common and widely distributed native lacewings in Australia.
-            [3] Adults are green, 15 mm long, and have large lacey wings</p>
-          <a href="https://bugsforbugs.com.au/product/lacewing/" class="btn btn-primary">Lacewings</a>
-        </div>
-      </div>
-    </div>
-  </card>
+    </card>
 </body>
 
 </html>
